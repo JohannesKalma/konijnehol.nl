@@ -1,0 +1,330 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+    background: #fafafa;
+    color: #666;
+    font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif, Georgia, "Bitstream Charter", serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.wrapper {
+    background: #fff;
+    margin-top: 20px !important;
+    padding: 0 20px;
+}
+
+.branding,
+.wrapper,
+.main,
+.colophon {
+    margin: 0 auto;
+    width: 940px;
+}
+
+.header {
+    padding: 30px 0 0 0;
+}
+
+.branding .site-title {
+    float: left;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 18px 0;
+    width: 700px;
+}
+
+.branding h1.site-title a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.branding .site-description {
+    -webkit-text-size-adjust: none;
+    clear: right;
+    float: right;
+    font-style: italic;
+    margin: 14px 0 18px 0;
+    width: 220px;
+}
+
+.branding img {
+    border-bottom: 1px solid #000;
+    clear: both;
+    display: block;
+}
+
+.access {
+    -webkit-text-size-adjust: 120%;
+    background: #000;
+    display: block;
+    float: left;
+    margin: 0 auto;
+    width: 940px;
+}
+
+.access .menu {
+    font-size: 13px;
+    margin-left: 12px !important;
+    width: 928px;
+    margin: 0 auto;
+}
+
+.access div.menu ul {
+    list-style: none;
+    margin: 0;
+}
+
+.access div.menu li {
+    float: left;
+    position: relative;
+}
+
+.access a, .access a:visited {
+    color: #aaa;
+    display: block;
+    line-height: 38px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.access ul li.current_page_item>a {
+    color: #fff;
+}
+
+.access li:hover>a,
+.access ul ul :hover>a {
+    background: #333;
+    color: #fff;
+}
+
+.access ul li:hover>ul {
+    display: block;
+}
+
+
+
+.main {
+    clear: both;
+    overflow: hidden;
+    padding: 40px 0 0 0;
+}
+
+.container {
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%;
+}
+
+.content {
+    color: #333;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 36px;
+    margin: 0 280px 0 20px;
+}
+
+.hentry {
+    margin: 0 0 48px 0;
+}
+
+.content .entry-title {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.3em;
+    margin-bottom: 0;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    color: #000;
+    line-height: 1.5em;
+    margin: 0 0 20px 0;
+}
+
+.content .entry-content {
+    clear: both;
+    padding: 12px 0 0 0;
+}
+
+.content p,
+.content ul,
+.content ol,
+.content dd,
+.content pre,
+.content hr {
+    margin-bottom: 24px;
+}
+
+.content .wp-caption {
+    background: #f1f1f1;
+    line-height: 18px;
+    margin-bottom: 20px;
+    padding: 4px;
+    text-align: center;
+}
+
+.content .wp-caption img {
+    margin: 5px 5px 0;
+}
+
+.content .wp-caption p.wp-caption-text {
+    color: #888;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.content img.alignleft, .content img.alignright, .content img.aligncenter {
+    margin-bottom: 12px;
+}
+
+.content .alignleft, .content img.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 24px;
+    margin-top: 4px;
+}
+
+.main .widget-area {
+    -webkit-text-size-adjust: 120%;
+    float: right;
+    margin: 0 0 0 -240px;
+    width: 220px;
+ }
+
+.main .widget-area ul {
+    margin-left: 0;
+    padding: 0 20px 0 0;
+    list-style: none;
+}
+
+.main .widget-container {
+    margin: 0 0 18px 0;
+}
+
+.main .widget-title {
+    color: #222;
+    font-weight: bold;
+}
+
+.main .widget-area ul ul {
+    border: none;
+    margin-left: 1.3em;
+    padding: 0;
+    list-style: square;
+}
+
+.widget-area a:link, .widget-area a:visited {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.footer {
+    margin-bottom: 20px;
+    clear: both;
+    width: 100%;
+}
+
+.colophon {
+    border-top: 4px solid #000;
+    margin-top: -4px;
+    overflow: hidden;
+    padding: 18px 0;
+}
+
+.site-info {
+    font-weight: bold;
+    float: left;
+    font-size: 14px;
+    width: 700px;
+}
+
+.site-info a {
+    color: #000;
+    text-decoration: none;
+}
+
+.site-generator {
+	float: right;
+	width: 220px;
+    font-style: italic;
+	position: relative;
+    text-align: right;
+}
